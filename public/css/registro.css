@@ -1,0 +1,50 @@
+
+.well {
+    background-color:white;
+    border: none;
+    border-radius:20px;
+    margin:0 auto;
+    margin-top:1.2%;
+  
+ }
+ 
+ .fuentePromotor{
+     text-align: center;
+     font-weight: bolder;
+     font-size: 2em;
+     margin-bottom:1.5%;
+      margin-top:1.5%;
+     color: #00ac68;
+     
+ }
+
+ .body{
+    background-color: #00ac68 ;
+    }
+
+input[type="text"]{
+    border-color:black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+  
+}
+input[type="password"]{
+    border-color:black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+  
+}
+
+input:focus{
+   outline: none;
+  
+}
+   
+body img{
+    margin-top: 15%;
+}
+    
