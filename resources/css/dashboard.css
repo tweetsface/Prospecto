@@ -1,0 +1,164 @@
+.fondo
+{
+    background-color: #00ac68;
+}
+.btnnavbar
+{
+    border:none;
+    outline: none;
+    margin-right:0;
+    margin-left:0;
+    outline-color:none;
+}
+
+button span
+{
+    background-color:white;
+    color:white;
+}
+.letraStyle{
+    color:white;
+    font-size:1.2em;
+    font-weight: bolder;
+    margin-left:0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.fondoSidebar
+{
+    position:fixed;
+    background-color:#F8FBEF;
+ 
+    
+}
+
+.contenedor
+{
+    width: 100%;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:1fr;
+}
+
+
+.contenedor .header{
+    grid-column-start:1;
+    grid-column-end:5;
+}
+.contenedor .sidebar{
+    grid-column-start:1;
+    grid-column-end:2;
+    float: left;
+   
+}
+
+.contenedor .contenido{
+    background-color:white;
+    grid-column-start:1;
+    grid-column-end:5;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+     margin:0 auto;
+}
+
+.contenedor .contenidos{
+    background-color:white;
+   
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    grid-column-start:2;
+    grid-column-end:4;  
+    
+}
+.contenedor .contenidox{
+    background-color:white;
+    grid-column:2/5;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+     margin:0 auto;
+}
+
+
+th {
+    background-color:#00ac68;
+    color: white;
+    height: 10px;
+} 
+
+
+
+table{
+    margin-top:4%;
+    overflow-y:auto;
+    overflow-x:auto;
+    height:300px;
+
+
+}
+
+.listado
+{
+    text-align: center;
+   
+
+}
+
+.listadoEvaluar
+{
+    text-align: center;
+    margin-bottom: 3%;
+  
+}
+
+
+.fontSidebar{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+.row { margin-left: 0; margin-right: 0;
+
+ }
+ 
+
+ 
+ .loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: 1s all;
+    opacity: 0;
+}
+.loading.show {
+    opacity: 1;
+}
+.loading .spin {
+    border: 3px solid hsla(185, 100%, 62%, 0.2);
+    border-top-color: #3cefff;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}    
+
+.evaluar{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
